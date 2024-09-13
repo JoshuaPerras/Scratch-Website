@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    padding: 48px 80px;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.hero img{
+    height: 200px;
+    width: 400px;
+    background-color: #7b7b7b;
+    color: rgb(237, 233, 233);
+    text-align: center;
+    padding: 90px 0;
+    min-width: 200px;
+}
+
+.info{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p{
+    font-size: 14px;
+    max-width: 200px;
+}
+
+.drawing{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #3882F6;
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.action{
+    background-color: #3882F6;
+    height: 100px;
+    width: 500px;
+    margin: 40px 80px;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.action p{
+    margin: 4px;
+}
+
+.action button{
+    height: 25px;
+    flex-shrink: 0;
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    width: 80px;
+}
+.content{
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    max-width: 500px;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.author{
+    text-align:right;
+    padding: 20px;
+
+}
+.hero button{
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    width: 90px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.text p{
+    color: rgb(206, 206, 206);
+    margin: 8px 0;
+    max-width: 350px;
+}
+
+.zoro{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.jumbo .sub{
+    color: rgb(234, 234, 234);
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{ 
+    margin: 0;
+    font-size: 32px;
+    font-weight: 900;
+    max-width: 200px;
+}
+.links a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 12px;
+    margin: 8px;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: rgb(201, 199, 199);
+    height: 40px;
+    padding: 15px;
+    font-size: 12px;
+}
+
